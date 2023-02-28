@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-image: url("./image/wallpaper.jpg");
+    background-size: cover
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 75%;
+}

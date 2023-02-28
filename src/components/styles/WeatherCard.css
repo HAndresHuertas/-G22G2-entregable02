@@ -1,0 +1,85 @@
+.weatherCard {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.weatherCard__place {
+    margin-bottom: 0;
+}
+
+.weatherCard__title {
+    font-size: 30px;
+}
+
+.weatherCard__temp {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.weatherCard__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.weatherCard__list span {
+    font-weight: bold;
+}
+
+.weatherCard__description {
+    color: aqua;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weatherCard__btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: transform 900ms ease;
+}
+
+.weatherCard__btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.weatherCard__search {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.weatherCard__formButton {
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.weatherCard__formButton:hover {
+    color: aqua;
+    background-color: rgba(89, 53, 123, 0.8);
+}
+
+.weatherCard__form {
+    border: none;
+    font-size: 20px;
+    width: 200px;
+    height: 42.37px;
+    border-radius: 20px 0 0 20px;
+}
